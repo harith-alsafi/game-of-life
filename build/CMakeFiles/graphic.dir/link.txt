@@ -1,0 +1,1 @@
+/usr/bin/gcc-7 -std=c99 -fdump-rtl-expand -g  -rdynamic CMakeFiles/graphic.dir/tests/test_graphic.c.o CMakeFiles/graphic.dir/src/logic.c.o CMakeFiles/graphic.dir/src/graphic.c.o CMakeFiles/graphic.dir/unity/src/unity.c.o  -o ../out/graphic -lSDL2 -lSDL2_ttf 

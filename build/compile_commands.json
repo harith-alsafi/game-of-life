@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/misc.dir/tests/test_misc.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests/test_misc.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests/test_misc.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/misc.dir/src/logic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/logic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/logic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/misc.dir/src/graphic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/graphic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/graphic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/misc.dir/src/misc.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/misc.dir/unity/src/unity.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src/unity.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src/unity.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/lifegame.dir/src/main.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/main.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/main.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/lifegame.dir/src/graphic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/graphic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/graphic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/lifegame.dir/src/logic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/logic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/logic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/lifegame.dir/src/misc.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/graphic.dir/tests/test_graphic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests/test_graphic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests/test_graphic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/graphic.dir/src/logic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/logic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/logic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/graphic.dir/src/graphic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/graphic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/graphic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/graphic.dir/unity/src/unity.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src/unity.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src/unity.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/logic.dir/tests/test_logic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests/test_logic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests/test_logic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/logic.dir/src/logic.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/logic.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/logic.c"
+},
+{
+  "directory": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build",
+  "command": "/usr/bin/gcc-7  -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/tests -I/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/includes  -std=c99 -fdump-rtl-expand -g   -o CMakeFiles/logic.dir/unity/src/unity.c.o   -c /media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src/unity.c",
+  "file": "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/unity/src/unity.c"
+}
+]

@@ -1,0 +1,2 @@
+# row col rate pixels
+20 50 1 20

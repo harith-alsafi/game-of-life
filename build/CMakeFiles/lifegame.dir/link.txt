@@ -1,0 +1,1 @@
+/usr/bin/gcc-7 -std=c99 -fdump-rtl-expand -g  -rdynamic CMakeFiles/lifegame.dir/src/main.c.o CMakeFiles/lifegame.dir/src/graphic.c.o CMakeFiles/lifegame.dir/src/logic.c.o CMakeFiles/lifegame.dir/src/misc.c.o  -o ../out/lifegame -lSDL2 -lSDL2_ttf 

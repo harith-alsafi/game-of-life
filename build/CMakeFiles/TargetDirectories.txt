@@ -1,0 +1,6 @@
+/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build/CMakeFiles/rebuild_cache.dir
+/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build/CMakeFiles/edit_cache.dir
+/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build/CMakeFiles/misc.dir
+/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build/CMakeFiles/lifegame.dir
+/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build/CMakeFiles/graphic.dir
+/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/build/CMakeFiles/logic.dir

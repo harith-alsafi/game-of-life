@@ -1,0 +1,1 @@
+/usr/bin/gcc-7 -std=c99 -fdump-rtl-expand -g  -rdynamic CMakeFiles/logic.dir/tests/test_logic.c.o CMakeFiles/logic.dir/src/logic.c.o CMakeFiles/logic.dir/unity/src/unity.c.o  -o ../out/logic 

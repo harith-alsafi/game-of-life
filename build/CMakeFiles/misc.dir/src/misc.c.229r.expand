@@ -1,0 +1,1145 @@
+
+;; Function poll_event (poll_event, funcdef_no=3668, decl_uid=1699, cgraph_uid=3668, symbol_order=3669)
+
+Partition 1: size 56 align 16
+	event
+Partition 0: size 4 align 4
+	check_80
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
+
+;; Generating RTL for gimple basic block 5
+
+;; Generating RTL for gimple basic block 6
+
+;; Generating RTL for gimple basic block 7
+
+;; Generating RTL for gimple basic block 8
+
+;; Generating RTL for gimple basic block 9
+
+;; Generating RTL for gimple basic block 10
+
+;; Generating RTL for gimple basic block 11
+
+;; Generating RTL for gimple basic block 12
+
+;; Generating RTL for gimple basic block 13
+
+;; Generating RTL for gimple basic block 14
+
+;; Generating RTL for gimple basic block 15
+
+;; Generating RTL for gimple basic block 16
+
+;; Generating RTL for gimple basic block 17
+
+;; Generating RTL for gimple basic block 18
+
+;; Generating RTL for gimple basic block 19
+
+;; Generating RTL for gimple basic block 20
+
+;; Generating RTL for gimple basic block 21
+
+;; Generating RTL for gimple basic block 22
+
+;; Generating RTL for gimple basic block 23
+
+;; Generating RTL for gimple basic block 24
+
+;; Generating RTL for gimple basic block 25
+
+;; Generating RTL for gimple basic block 26
+
+;; Generating RTL for gimple basic block 27
+
+;; Generating RTL for gimple basic block 28
+
+;; Generating RTL for gimple basic block 29
+
+;; Generating RTL for gimple basic block 30
+
+;; Generating RTL for gimple basic block 31
+
+;; Generating RTL for gimple basic block 32
+
+;; Generating RTL for gimple basic block 33
+
+;; Generating RTL for gimple basic block 34
+
+;; Generating RTL for gimple basic block 35
+
+;; Generating RTL for gimple basic block 36
+
+;; Generating RTL for gimple basic block 37
+
+;; Generating RTL for gimple basic block 38
+
+;; Generating RTL for gimple basic block 39
+
+;; Generating RTL for gimple basic block 40
+
+;; Generating RTL for gimple basic block 41
+
+;; Generating RTL for gimple basic block 42
+
+;; Generating RTL for gimple basic block 43
+
+;; Generating RTL for gimple basic block 44
+
+;; Generating RTL for gimple basic block 45
+
+;; Generating RTL for gimple basic block 46
+
+;; Generating RTL for gimple basic block 47
+
+;; Generating RTL for gimple basic block 48
+
+;; Generating RTL for gimple basic block 49
+
+;; Generating RTL for gimple basic block 50
+
+;; Generating RTL for gimple basic block 51
+
+;; Generating RTL for gimple basic block 52
+
+;; Generating RTL for gimple basic block 53
+
+;; Generating RTL for gimple basic block 54
+
+;; Generating RTL for gimple basic block 55
+
+;; Generating RTL for gimple basic block 56
+
+;; Generating RTL for gimple basic block 57
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Redirecting jump 60 from 17 to 58.
+Merging block 17 into block 16...
+Merged blocks 16 and 17.
+Merged 16 and 17 without moving.
+Edge 25->58 redirected to 59
+Edge 26->58 redirected to 59
+Forwarding edge 57->58 to 59 failed.
+
+
+try_optimize_cfg iteration 2
+
+Forwarding edge 57->58 to 59 failed.
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 4 NOTE_INSN_DELETED)
+(note 4 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 4 3 2 NOTE_INSN_FUNCTION_BEG)
+(insn 3 2 6 2 (parallel [
+            (set (mem/v/f/c:DI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                        (const_int -8 [0xfffffffffffffff8])) [2 D.26896+0 S8 A64])
+                (unspec:DI [
+                        (const_int 40 [0x28])
+                    ] UNSPEC_SP_TLS_SET))
+            (set (scratch:DI)
+                (const_int 0 [0]))
+            (clobber (reg:CC 17 flags))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":9 -1
+     (nil))
+(jump_insn 6 3 7 2 (set (pc)
+        (label_ref 279)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":12 -1
+     (nil)
+ -> 279)
+(barrier 7 6 285)
+(code_label 285 7 8 4 25 (nil) [1 uses])
+(note 8 285 9 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+(insn 9 8 10 4 (set (reg:SI 87 [ _1 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 event.type+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":15 -1
+     (nil))
+(insn 10 9 11 4 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 87 [ _1 ])
+            (const_int 256 [0x100]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":15 -1
+     (nil))
+(jump_insn 11 10 12 4 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 14)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":15 -1
+     (nil)
+ -> 14)
+(note 12 11 13 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+(insn 13 12 14 5 (set (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])
+        (const_int 3 [0x3])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":16 -1
+     (nil))
+(code_label 14 13 15 6 3 (nil) [1 uses])
+(note 15 14 16 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
+(insn 16 15 17 6 (set (reg:SI 88 [ _2 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 event.type+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":21 -1
+     (nil))
+(insn 17 16 18 6 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 88 [ _2 ])
+            (const_int 768 [0x300]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":21 -1
+     (nil))
+(jump_insn 18 17 19 6 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 169)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":21 -1
+     (nil)
+ -> 169)
+(note 19 18 20 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
+(insn 20 19 21 7 (set (reg:SI 89 [ _3 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":24 -1
+     (nil))
+(insn 21 20 22 7 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 89 [ _3 ])
+            (const_int 13 [0xd]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":24 -1
+     (nil))
+(jump_insn 22 21 23 7 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 27)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":24 -1
+     (nil)
+ -> 27)
+(note 23 22 24 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
+(insn 24 23 25 8 (set (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])
+        (const_int 1 [0x1])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":25 -1
+     (nil))
+(jump_insn 25 24 26 8 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":26 -1
+     (nil)
+ -> 288)
+(barrier 26 25 27)
+(code_label 27 26 28 9 5 (nil) [1 uses])
+(note 28 27 29 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
+(insn 29 28 30 9 (set (reg:SI 90 [ _4 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":30 -1
+     (nil))
+(insn 30 29 31 9 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 90 [ _4 ])
+            (const_int 114 [0x72]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":30 -1
+     (nil))
+(jump_insn 31 30 32 9 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 40)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":30 -1
+     (nil)
+ -> 40)
+(note 32 31 33 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
+(insn 33 32 34 10 (set (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":31 -1
+     (nil))
+(insn 34 33 35 10 (set (reg:QI 0 ax)
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":32 -1
+     (nil))
+(call_insn 35 34 36 10 (call (mem:QI (symbol_ref:DI ("reset_grid") [flags 0x41]  <function_decl 0x7f2331b2f500 reset_grid>) [0 reset_grid S1 A8])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":32 -1
+     (nil)
+    (expr_list (use (reg:QI 0 ax))
+        (nil)))
+(insn 36 35 37 10 (set (reg:QI 0 ax)
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":33 -1
+     (nil))
+(call_insn 37 36 38 10 (call (mem:QI (symbol_ref:DI ("reset_all_alive_cells") [flags 0x41]  <function_decl 0x7f2331b2f800 reset_all_alive_cells>) [0 reset_all_alive_cells S1 A8])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":33 -1
+     (nil)
+    (expr_list (use (reg:QI 0 ax))
+        (nil)))
+(jump_insn 38 37 39 10 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":34 -1
+     (nil)
+ -> 288)
+(barrier 39 38 40)
+(code_label 40 39 41 11 7 (nil) [1 uses])
+(note 41 40 42 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
+(insn 42 41 43 11 (set (reg:SI 91 [ game_state.0_5 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":38 -1
+     (nil))
+(insn 43 42 44 11 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 91 [ game_state.0_5 ])
+            (const_int 1 [0x1]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":38 -1
+     (nil))
+(jump_insn 44 43 45 11 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 49)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":38 -1
+     (nil)
+ -> 49)
+(note 45 44 46 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
+(insn 46 45 47 12 (set (reg:SI 92 [ game_state.1_6 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":38 -1
+     (nil))
+(insn 47 46 48 12 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 92 [ game_state.1_6 ])
+            (const_int 2 [0x2]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":38 -1
+     (nil))
+(jump_insn 48 47 49 12 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 93)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":38 -1
+     (nil)
+ -> 93)
+(code_label 49 48 50 13 8 (nil) [1 uses])
+(note 50 49 51 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
+(insn 51 50 52 13 (set (reg:SI 93 [ _7 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":41 -1
+     (nil))
+(insn 52 51 53 13 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 93 [ _7 ])
+            (const_int 32 [0x20]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":41 -1
+     (nil))
+(jump_insn 53 52 54 13 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 69)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":41 -1
+     (nil)
+ -> 69)
+(note 54 53 55 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
+(insn 55 54 56 14 (set (reg:SI 94 [ game_state.2_8 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":43 -1
+     (nil))
+(insn 56 55 57 14 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 94 [ game_state.2_8 ])
+            (const_int 1 [0x1]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":43 -1
+     (nil))
+(jump_insn 57 56 58 14 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 62)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":43 -1
+     (nil)
+ -> 62)
+(note 58 57 59 15 [bb 15] NOTE_INSN_BASIC_BLOCK)
+(insn 59 58 60 15 (set (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])
+        (const_int 2 [0x2])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":44 -1
+     (nil))
+(jump_insn 60 59 61 15 (set (pc)
+        (label_ref:DI 288)) 659 {jump}
+     (nil)
+ -> 288)
+(barrier 61 60 62)
+(code_label 62 61 63 16 11 (nil) [1 uses])
+(note 63 62 64 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
+(insn 64 63 67 16 (set (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])
+        (const_int 1 [0x1])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":47 -1
+     (nil))
+(jump_insn 67 64 68 16 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":49 -1
+     (nil)
+ -> 288)
+(barrier 68 67 69)
+(code_label 69 68 70 18 10 (nil) [1 uses])
+(note 70 69 71 18 [bb 18] NOTE_INSN_BASIC_BLOCK)
+(insn 71 70 72 18 (set (reg:SI 95 [ game_state.3_9 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":53 -1
+     (nil))
+(insn 72 71 73 18 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 95 [ game_state.3_9 ])
+            (const_int 2 [0x2]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":53 -1
+     (nil))
+(jump_insn 73 72 74 18 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 93)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":53 -1
+     (nil)
+ -> 93)
+(note 74 73 75 19 [bb 19] NOTE_INSN_BASIC_BLOCK)
+(insn 75 74 76 19 (set (reg:SI 96 [ _10 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":56 -1
+     (nil))
+(insn 76 75 77 19 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 96 [ _10 ])
+            (const_int 1073741903 [0x4000004f]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":56 -1
+     (nil))
+(jump_insn 77 76 78 19 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 83)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":56 -1
+     (nil)
+ -> 83)
+(note 78 77 79 20 [bb 20] NOTE_INSN_BASIC_BLOCK)
+(insn 79 78 80 20 (set (reg:QI 0 ax)
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":57 -1
+     (nil))
+(call_insn 80 79 81 20 (call (mem:QI (symbol_ref:DI ("reshape_grid") [flags 0x41]  <function_decl 0x7f2331b2f200 reshape_grid>) [0 reshape_grid S1 A8])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":57 -1
+     (nil)
+    (expr_list (use (reg:QI 0 ax))
+        (nil)))
+(jump_insn 81 80 82 20 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":58 -1
+     (nil)
+ -> 288)
+(barrier 82 81 83)
+(code_label 83 82 84 21 13 (nil) [1 uses])
+(note 84 83 85 21 [bb 21] NOTE_INSN_BASIC_BLOCK)
+(insn 85 84 86 21 (set (reg:SI 97 [ _11 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":62 -1
+     (nil))
+(insn 86 85 87 21 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 97 [ _11 ])
+            (const_int 1073741904 [0x40000050]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":62 -1
+     (nil))
+(jump_insn 87 86 88 21 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 93)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":62 -1
+     (nil)
+ -> 93)
+(note 88 87 89 22 [bb 22] NOTE_INSN_BASIC_BLOCK)
+(insn 89 88 90 22 (set (reg:QI 0 ax)
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":63 -1
+     (nil))
+(call_insn 90 89 91 22 (call (mem:QI (symbol_ref:DI ("undo_reshape") [flags 0x41]  <function_decl 0x7f2331b2f600 undo_reshape>) [0 undo_reshape S1 A8])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":63 -1
+     (nil)
+    (expr_list (use (reg:QI 0 ax))
+        (nil)))
+(jump_insn 91 90 92 22 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":64 -1
+     (nil)
+ -> 288)
+(barrier 92 91 93)
+(code_label 93 92 94 23 9 (nil) [3 uses])
+(note 94 93 95 23 [bb 23] NOTE_INSN_BASIC_BLOCK)
+(insn 95 94 96 23 (set (reg:SI 98 [ game_state.4_12 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":70 -1
+     (nil))
+(insn 96 95 97 23 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 98 [ game_state.4_12 ])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":70 -1
+     (nil))
+(jump_insn 97 96 98 23 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 116)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":70 -1
+     (nil)
+ -> 116)
+(note 98 97 99 24 [bb 24] NOTE_INSN_BASIC_BLOCK)
+(insn 99 98 100 24 (set (reg:SI 99 [ _13 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":71 -1
+     (nil))
+(insn 100 99 101 24 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 99 [ _13 ])
+            (const_int 111 [0x6f]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":71 -1
+     (nil))
+(jump_insn 101 100 102 24 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 116)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":71 -1
+     (nil)
+ -> 116)
+(note 102 101 103 25 [bb 25] NOTE_INSN_BASIC_BLOCK)
+(insn 103 102 104 25 (set (reg:QI 0 ax)
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":72 -1
+     (nil))
+(call_insn 104 103 105 25 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:DI ("restore_stored_file") [flags 0x41]  <function_decl 0x7f2331b2f700 restore_stored_file>) [0 restore_stored_file S1 A8])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":72 -1
+     (nil)
+    (expr_list (use (reg:QI 0 ax))
+        (nil)))
+(insn 105 104 106 25 (set (reg:SI 149)
+        (reg:SI 0 ax)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":72 -1
+     (nil))
+(insn 106 105 107 25 (set (mem/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -68 [0xffffffffffffffbc])) [4 check+0 S4 A32])
+        (reg:SI 149)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":72 -1
+     (nil))
+(insn 107 106 108 25 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                    (const_int -68 [0xffffffffffffffbc])) [4 check+0 S4 A32])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":75 -1
+     (nil))
+(jump_insn 108 107 109 25 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref:DI 290)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":75 627 {*jcc_1}
+     (nil)
+ -> 290)
+(note 109 108 110 26 [bb 26] NOTE_INSN_BASIC_BLOCK)
+(insn 110 109 111 26 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                    (const_int -68 [0xffffffffffffffbc])) [4 check+0 S4 A32])
+            (const_int -1 [0xffffffffffffffff]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":75 -1
+     (nil))
+(jump_insn 111 110 112 26 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref:DI 290)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":75 627 {*jcc_1}
+     (nil)
+ -> 290)
+(note 112 111 113 27 [bb 27] NOTE_INSN_BASIC_BLOCK)
+(insn 113 112 114 27 (set (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":78 -1
+     (nil))
+(jump_insn 114 113 115 27 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":79 -1
+     (nil)
+ -> 288)
+(barrier 115 114 116)
+(code_label 116 115 117 28 14 (nil) [2 uses])
+(note 117 116 118 28 [bb 28] NOTE_INSN_BASIC_BLOCK)
+(insn 118 117 119 28 (set (reg:SI 100 [ game_state.5_14 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":84 -1
+     (nil))
+(insn 119 118 120 28 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 100 [ game_state.5_14 ])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":84 -1
+     (nil))
+(jump_insn 120 119 121 28 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 125)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":84 -1
+     (nil)
+ -> 125)
+(note 121 120 122 29 [bb 29] NOTE_INSN_BASIC_BLOCK)
+(insn 122 121 123 29 (set (reg:SI 101 [ game_state.6_15 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":84 -1
+     (nil))
+(insn 123 122 124 29 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 101 [ game_state.6_15 ])
+            (const_int 2 [0x2]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":84 -1
+     (nil))
+(jump_insn 124 123 125 29 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 135)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":84 -1
+     (nil)
+ -> 135)
+(code_label 125 124 126 30 15 (nil) [1 uses])
+(note 126 125 127 30 [bb 30] NOTE_INSN_BASIC_BLOCK)
+(insn 127 126 128 30 (set (reg:SI 102 [ _16 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":85 -1
+     (nil))
+(insn 128 127 129 30 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 102 [ _16 ])
+            (const_int 115 [0x73]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":85 -1
+     (nil))
+(jump_insn 129 128 130 30 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 135)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":85 -1
+     (nil)
+ -> 135)
+(note 130 129 131 31 [bb 31] NOTE_INSN_BASIC_BLOCK)
+(insn 131 130 132 31 (set (reg:QI 0 ax)
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":86 -1
+     (nil))
+(call_insn 132 131 133 31 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:DI ("store_file") [flags 0x41]  <function_decl 0x7f2331b2f000 store_file>) [0 store_file S1 A8])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":86 -1
+     (nil)
+    (expr_list (use (reg:QI 0 ax))
+        (nil)))
+(jump_insn 133 132 134 31 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":87 -1
+     (nil)
+ -> 288)
+(barrier 134 133 135)
+(code_label 135 134 136 32 16 (nil) [2 uses])
+(note 136 135 137 32 [bb 32] NOTE_INSN_BASIC_BLOCK)
+(insn 137 136 138 32 (set (reg:SI 103 [ _17 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":92 -1
+     (nil))
+(insn 138 137 139 32 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 103 [ _17 ])
+            (const_int 113 [0x71]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":92 -1
+     (nil))
+(jump_insn 139 138 140 32 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 145)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":92 -1
+     (nil)
+ -> 145)
+(note 140 139 141 33 [bb 33] NOTE_INSN_BASIC_BLOCK)
+(insn 141 140 142 33 (set (reg:SI 104 [ base_pixels.7_18 ])
+        (mem/c:SI (symbol_ref:DI ("base_pixels") [flags 0x40]  <var_decl 0x7f2331b2c3f0 base_pixels>) [4 base_pixels+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":93 -1
+     (nil))
+(insn 142 141 143 33 (set (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])
+        (reg:SI 104 [ base_pixels.7_18 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":93 -1
+     (nil))
+(insn 143 142 144 33 (set (reg:SF 105 [ base_rate.8_19 ])
+        (mem/c:SF (symbol_ref:DI ("base_rate") [flags 0x40]  <var_decl 0x7f2331b2c360 base_rate>) [26 base_rate+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":94 -1
+     (nil))
+(insn 144 143 145 33 (set (mem/c:SF (symbol_ref:DI ("rate") [flags 0x40]  <var_decl 0x7f2331b2c2d0 rate>) [26 rate+0 S4 A32])
+        (reg:SF 105 [ base_rate.8_19 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":94 -1
+     (nil))
+(code_label 145 144 146 34 17 (nil) [1 uses])
+(note 146 145 147 34 [bb 34] NOTE_INSN_BASIC_BLOCK)
+(insn 147 146 148 34 (set (reg:SI 106 [ _20 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":98 -1
+     (nil))
+(insn 148 147 149 34 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 106 [ _20 ])
+            (const_int 1073741906 [0x40000052]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":98 -1
+     (nil))
+(jump_insn 149 148 150 34 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 157)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":98 -1
+     (nil)
+ -> 157)
+(note 150 149 151 35 [bb 35] NOTE_INSN_BASIC_BLOCK)
+(insn 151 150 152 35 (set (reg:SF 107 [ rate.9_21 ])
+        (mem/c:SF (symbol_ref:DI ("rate") [flags 0x40]  <var_decl 0x7f2331b2c2d0 rate>) [26 rate+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":99 -1
+     (nil))
+(insn 152 151 153 35 (set (reg:DF 108 [ _22 ])
+        (float_extend:DF (reg:SF 107 [ rate.9_21 ]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":99 -1
+     (nil))
+(insn 153 152 154 35 (set (reg:DF 150)
+        (mem/u/c:DF (symbol_ref/u:DI ("*.LC0") [flags 0x2]) [40  S8 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":99 -1
+     (expr_list:REG_EQUAL (const_double:DF 1.00000000000000005551115123125782702118158340454101562e-1 [0x0.ccccccccccccdp-3])
+        (nil)))
+(insn 154 153 155 35 (set (reg:DF 109 [ _23 ])
+        (plus:DF (reg:DF 108 [ _22 ])
+            (reg:DF 150))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":99 -1
+     (nil))
+(insn 155 154 156 35 (set (reg:SF 110 [ _24 ])
+        (float_truncate:SF (reg:DF 109 [ _23 ]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":99 -1
+     (nil))
+(insn 156 155 157 35 (set (mem/c:SF (symbol_ref:DI ("rate") [flags 0x40]  <var_decl 0x7f2331b2c2d0 rate>) [26 rate+0 S4 A32])
+        (reg:SF 110 [ _24 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":99 -1
+     (nil))
+(code_label 157 156 158 36 18 (nil) [1 uses])
+(note 158 157 159 36 [bb 36] NOTE_INSN_BASIC_BLOCK)
+(insn 159 158 160 36 (set (reg:SI 111 [ _25 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.key.keysym.sym+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":103 -1
+     (nil))
+(insn 160 159 161 36 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 111 [ _25 ])
+            (const_int 1073741905 [0x40000051]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":103 -1
+     (nil))
+(jump_insn 161 160 162 36 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 169)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":103 -1
+     (nil)
+ -> 169)
+(note 162 161 163 37 [bb 37] NOTE_INSN_BASIC_BLOCK)
+(insn 163 162 164 37 (set (reg:SF 112 [ rate.10_26 ])
+        (mem/c:SF (symbol_ref:DI ("rate") [flags 0x40]  <var_decl 0x7f2331b2c2d0 rate>) [26 rate+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":104 -1
+     (nil))
+(insn 164 163 165 37 (set (reg:DF 113 [ _27 ])
+        (float_extend:DF (reg:SF 112 [ rate.10_26 ]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":104 -1
+     (nil))
+(insn 165 164 166 37 (set (reg:DF 151)
+        (mem/u/c:DF (symbol_ref/u:DI ("*.LC0") [flags 0x2]) [40  S8 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":104 -1
+     (expr_list:REG_EQUAL (const_double:DF 1.00000000000000005551115123125782702118158340454101562e-1 [0x0.ccccccccccccdp-3])
+        (nil)))
+(insn 166 165 167 37 (set (reg:DF 114 [ _28 ])
+        (minus:DF (reg:DF 113 [ _27 ])
+            (reg:DF 151))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":104 -1
+     (nil))
+(insn 167 166 168 37 (set (reg:SF 115 [ _29 ])
+        (float_truncate:SF (reg:DF 114 [ _28 ]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":104 -1
+     (nil))
+(insn 168 167 169 37 (set (mem/c:SF (symbol_ref:DI ("rate") [flags 0x40]  <var_decl 0x7f2331b2c2d0 rate>) [26 rate+0 S4 A32])
+        (reg:SF 115 [ _29 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":104 -1
+     (nil))
+(code_label 169 168 170 38 4 (nil) [2 uses])
+(note 170 169 171 38 [bb 38] NOTE_INSN_BASIC_BLOCK)
+(insn 171 170 172 38 (set (reg:SI 116 [ _30 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 event.type+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":109 -1
+     (nil))
+(insn 172 171 173 38 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 116 [ _30 ])
+            (const_int 1025 [0x401]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":109 -1
+     (nil))
+(jump_insn 173 172 174 38 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 210)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":109 -1
+     (nil)
+ -> 210)
+(note 174 173 175 39 [bb 39] NOTE_INSN_BASIC_BLOCK)
+(insn 175 174 176 39 (set (reg:SI 117 [ game_state.11_31 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":111 -1
+     (nil))
+(insn 176 175 177 39 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 117 [ game_state.11_31 ])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":111 -1
+     (nil))
+(jump_insn 177 176 178 39 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 182)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":111 -1
+     (nil)
+ -> 182)
+(note 178 177 179 40 [bb 40] NOTE_INSN_BASIC_BLOCK)
+(insn 179 178 180 40 (set (reg:SI 118 [ game_state.12_32 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":111 -1
+     (nil))
+(insn 180 179 181 40 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 118 [ game_state.12_32 ])
+            (const_int 2 [0x2]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":111 -1
+     (nil))
+(jump_insn 181 180 182 40 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 210)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":111 -1
+     (nil)
+ -> 210)
+(code_label 182 181 183 41 20 (nil) [1 uses])
+(note 183 182 184 41 [bb 41] NOTE_INSN_BASIC_BLOCK)
+(insn 184 183 185 41 (set (reg:QI 119 [ _33 ])
+        (mem/j/c:QI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -48 [0xffffffffffffffd0])) [3 event.button.button+0 S1 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":112 -1
+     (nil))
+(insn 185 184 186 41 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:QI 119 [ _33 ])
+            (const_int 1 [0x1]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":112 -1
+     (nil))
+(jump_insn 186 185 187 41 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 196)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":112 -1
+     (nil)
+ -> 196)
+(note 187 186 188 42 [bb 42] NOTE_INSN_BASIC_BLOCK)
+(insn 188 187 189 42 (set (reg:SI 120 [ _34 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [3 event.button.y+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":113 -1
+     (nil))
+(insn 189 188 190 42 (set (reg:SI 121 [ _35 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.button.x+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":113 -1
+     (nil))
+(insn 190 189 191 42 (set (reg:SI 1 dx)
+        (const_int 1 [0x1])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":113 -1
+     (nil))
+(insn 191 190 192 42 (set (reg:SI 4 si)
+        (reg:SI 120 [ _34 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":113 -1
+     (nil))
+(insn 192 191 193 42 (set (reg:SI 5 di)
+        (reg:SI 121 [ _35 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":113 -1
+     (nil))
+(call_insn 193 192 194 42 (call (mem:QI (symbol_ref:DI ("mouse_press") [flags 0x41]  <function_decl 0x7f2331b2fd00 mouse_press>) [0 mouse_press S1 A8])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":113 -1
+     (nil)
+    (expr_list:SI (use (reg:SI 5 di))
+        (expr_list:SI (use (reg:SI 4 si))
+            (expr_list:SI (use (reg:SI 1 dx))
+                (nil)))))
+(jump_insn 194 193 195 42 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":114 -1
+     (nil)
+ -> 288)
+(barrier 195 194 196)
+(code_label 196 195 197 43 21 (nil) [1 uses])
+(note 197 196 198 43 [bb 43] NOTE_INSN_BASIC_BLOCK)
+(insn 198 197 199 43 (set (reg:QI 122 [ _36 ])
+        (mem/j/c:QI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -48 [0xffffffffffffffd0])) [3 event.button.button+0 S1 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":118 -1
+     (nil))
+(insn 199 198 200 43 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:QI 122 [ _36 ])
+            (const_int 3 [0x3]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":118 -1
+     (nil))
+(jump_insn 200 199 201 43 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 210)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":118 -1
+     (nil)
+ -> 210)
+(note 201 200 202 44 [bb 44] NOTE_INSN_BASIC_BLOCK)
+(insn 202 201 203 44 (set (reg:SI 123 [ _37 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [3 event.button.y+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":119 -1
+     (nil))
+(insn 203 202 204 44 (set (reg:SI 124 [ _38 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.button.x+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":119 -1
+     (nil))
+(insn 204 203 205 44 (set (reg:SI 1 dx)
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":119 -1
+     (nil))
+(insn 205 204 206 44 (set (reg:SI 4 si)
+        (reg:SI 123 [ _37 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":119 -1
+     (nil))
+(insn 206 205 207 44 (set (reg:SI 5 di)
+        (reg:SI 124 [ _38 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":119 -1
+     (nil))
+(call_insn 207 206 208 44 (call (mem:QI (symbol_ref:DI ("mouse_press") [flags 0x41]  <function_decl 0x7f2331b2fd00 mouse_press>) [0 mouse_press S1 A8])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":119 -1
+     (nil)
+    (expr_list:SI (use (reg:SI 5 di))
+        (expr_list:SI (use (reg:SI 4 si))
+            (expr_list:SI (use (reg:SI 1 dx))
+                (nil)))))
+(jump_insn 208 207 209 44 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":120 -1
+     (nil)
+ -> 288)
+(barrier 209 208 210)
+(code_label 210 209 211 45 19 (nil) [3 uses])
+(note 211 210 212 45 [bb 45] NOTE_INSN_BASIC_BLOCK)
+(insn 212 211 213 45 (set (reg:SI 125 [ _39 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 event.type+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":127 -1
+     (nil))
+(insn 213 212 214 45 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 125 [ _39 ])
+            (const_int 1027 [0x403]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":127 -1
+     (nil))
+(jump_insn 214 213 215 45 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 242)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":127 -1
+     (nil)
+ -> 242)
+(note 215 214 216 46 [bb 46] NOTE_INSN_BASIC_BLOCK)
+(insn 216 215 217 46 (set (reg:SI 126 [ _40 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.wheel.y+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":130 -1
+     (nil))
+(insn 217 216 218 46 (set (reg:CCNO 17 flags)
+        (compare:CCNO (reg:SI 126 [ _40 ])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":130 -1
+     (nil))
+(jump_insn 218 217 219 46 (set (pc)
+        (if_then_else (le (reg:CCNO 17 flags)
+                (const_int 0 [0]))
+            (label_ref 228)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":130 -1
+     (nil)
+ -> 228)
+(note 219 218 220 47 [bb 47] NOTE_INSN_BASIC_BLOCK)
+(insn 220 219 221 47 (set (reg:SI 127 [ pixels.13_41 ])
+        (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":131 -1
+     (nil))
+(insn 221 220 222 47 (parallel [
+            (set (reg:SI 128 [ _42 ])
+                (plus:SI (reg:SI 127 [ pixels.13_41 ])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":131 -1
+     (nil))
+(insn 222 221 223 47 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 128 [ _42 ])
+            (const_int 99 [0x63]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":131 -1
+     (nil))
+(jump_insn 223 222 224 47 (set (pc)
+        (if_then_else (gt (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 228)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":131 -1
+     (nil)
+ -> 228)
+(note 224 223 225 48 [bb 48] NOTE_INSN_BASIC_BLOCK)
+(insn 225 224 226 48 (set (reg:SI 129 [ pixels.14_43 ])
+        (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":132 -1
+     (nil))
+(insn 226 225 227 48 (parallel [
+            (set (reg:SI 130 [ _44 ])
+                (plus:SI (reg:SI 129 [ pixels.14_43 ])
+                    (const_int 1 [0x1])))
+            (clobber (reg:CC 17 flags))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":132 -1
+     (nil))
+(insn 227 226 228 48 (set (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])
+        (reg:SI 130 [ _44 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":132 -1
+     (nil))
+(code_label 228 227 229 49 23 (nil) [2 uses])
+(note 229 228 230 49 [bb 49] NOTE_INSN_BASIC_BLOCK)
+(insn 230 229 231 49 (set (reg:SI 131 [ _45 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.wheel.y+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":137 -1
+     (nil))
+(insn 231 230 232 49 (set (reg:CCGOC 17 flags)
+        (compare:CCGOC (reg:SI 131 [ _45 ])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":137 -1
+     (nil))
+(jump_insn 232 231 233 49 (set (pc)
+        (if_then_else (ge (reg:CCGOC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 242)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":137 -1
+     (nil)
+ -> 242)
+(note 233 232 234 50 [bb 50] NOTE_INSN_BASIC_BLOCK)
+(insn 234 233 235 50 (set (reg:SI 132 [ pixels.15_46 ])
+        (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":138 -1
+     (nil))
+(insn 235 234 236 50 (parallel [
+            (set (reg:SI 133 [ _47 ])
+                (plus:SI (reg:SI 132 [ pixels.15_46 ])
+                    (const_int -1 [0xffffffffffffffff])))
+            (clobber (reg:CC 17 flags))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":138 -1
+     (nil))
+(insn 236 235 237 50 (set (reg:CCGC 17 flags)
+        (compare:CCGC (reg:SI 133 [ _47 ])
+            (const_int 1 [0x1]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":138 -1
+     (nil))
+(jump_insn 237 236 238 50 (set (pc)
+        (if_then_else (le (reg:CCGC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 242)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":138 -1
+     (nil)
+ -> 242)
+(note 238 237 239 51 [bb 51] NOTE_INSN_BASIC_BLOCK)
+(insn 239 238 240 51 (set (reg:SI 134 [ pixels.16_48 ])
+        (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":139 -1
+     (nil))
+(insn 240 239 241 51 (parallel [
+            (set (reg:SI 135 [ _49 ])
+                (plus:SI (reg:SI 134 [ pixels.16_48 ])
+                    (const_int -1 [0xffffffffffffffff])))
+            (clobber (reg:CC 17 flags))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":139 -1
+     (nil))
+(insn 241 240 242 51 (set (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])
+        (reg:SI 135 [ _49 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":139 -1
+     (nil))
+(code_label 242 241 243 52 22 (nil) [3 uses])
+(note 243 242 244 52 [bb 52] NOTE_INSN_BASIC_BLOCK)
+(insn 244 243 245 52 (set (reg:SI 136 [ _50 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -64 [0xffffffffffffffc0])) [3 event.type+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":145 -1
+     (nil))
+(insn 245 244 246 52 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 136 [ _50 ])
+            (const_int 1024 [0x400]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":145 -1
+     (nil))
+(jump_insn 246 245 247 52 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 279)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":145 -1
+     (nil)
+ -> 279)
+(note 247 246 248 53 [bb 53] NOTE_INSN_BASIC_BLOCK)
+(insn 248 247 249 53 (set (reg:SI 137 [ _51 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [3 event.motion.y+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":147 -1
+     (nil))
+(insn 249 248 250 53 (set (reg:SI 138 [ pixels.17_52 ])
+        (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":147 -1
+     (nil))
+(insn 250 249 251 53 (parallel [
+            (set (reg:SI 152)
+                (div:SI (reg:SI 137 [ _51 ])
+                    (reg:SI 138 [ pixels.17_52 ])))
+            (set (reg:SI 153)
+                (mod:SI (reg:SI 137 [ _51 ])
+                    (reg:SI 138 [ pixels.17_52 ])))
+            (clobber (reg:CC 17 flags))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":147 -1
+     (nil))
+(insn 251 250 252 53 (set (reg:SI 139 [ _53 ])
+        (reg:SI 152)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":147 -1
+     (nil))
+(insn 252 251 253 53 (set (mem/c:SI (symbol_ref:DI ("cell_x") [flags 0x40]  <var_decl 0x7f2331b2c480 cell_x>) [4 cell_x+0 S4 A32])
+        (reg:SI 139 [ _53 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":147 -1
+     (nil))
+(insn 253 252 254 53 (set (reg:SI 140 [ _54 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.motion.x+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":148 -1
+     (nil))
+(insn 254 253 255 53 (set (reg:SI 141 [ pixels.18_55 ])
+        (mem/c:SI (symbol_ref:DI ("pixels") [flags 0x40]  <var_decl 0x7f2331b2c240 pixels>) [4 pixels+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":148 -1
+     (nil))
+(insn 255 254 256 53 (parallel [
+            (set (reg:SI 154)
+                (div:SI (reg:SI 140 [ _54 ])
+                    (reg:SI 141 [ pixels.18_55 ])))
+            (set (reg:SI 155)
+                (mod:SI (reg:SI 140 [ _54 ])
+                    (reg:SI 141 [ pixels.18_55 ])))
+            (clobber (reg:CC 17 flags))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":148 -1
+     (nil))
+(insn 256 255 257 53 (set (reg:SI 142 [ _56 ])
+        (reg:SI 154)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":148 -1
+     (nil))
+(insn 257 256 258 53 (set (mem/c:SI (symbol_ref:DI ("cell_y") [flags 0x40]  <var_decl 0x7f2331b2c510 cell_y>) [4 cell_y+0 S4 A32])
+        (reg:SI 142 [ _56 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":148 -1
+     (nil))
+(insn 258 257 259 53 (set (reg:SI 143 [ game_state.19_57 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":151 -1
+     (nil))
+(insn 259 258 260 53 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 143 [ game_state.19_57 ])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":151 -1
+     (nil))
+(jump_insn 260 259 261 53 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 265)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":151 -1
+     (nil)
+ -> 265)
+(note 261 260 262 54 [bb 54] NOTE_INSN_BASIC_BLOCK)
+(insn 262 261 263 54 (set (reg:SI 144 [ game_state.20_58 ])
+        (mem/c:SI (symbol_ref:DI ("game_state") [flags 0x2]  <var_decl 0x7f2333741e10 game_state>) [1 game_state+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":151 -1
+     (nil))
+(insn 263 262 264 54 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 144 [ game_state.20_58 ])
+            (const_int 2 [0x2]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":151 -1
+     (nil))
+(jump_insn 264 263 265 54 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 279)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":151 -1
+     (nil)
+ -> 279)
+(code_label 265 264 266 55 24 (nil) [1 uses])
+(note 266 265 267 55 [bb 55] NOTE_INSN_BASIC_BLOCK)
+(insn 267 266 268 55 (set (reg:QI 145 [ _59 ])
+        (mem/j/c:QI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -48 [0xffffffffffffffd0])) [3 event.button.button+0 S1 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":152 -1
+     (nil))
+(insn 268 267 269 55 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:QI 145 [ _59 ])
+            (const_int 1 [0x1]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":152 -1
+     (nil))
+(jump_insn 269 268 270 55 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 279)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":152 -1
+     (nil)
+ -> 279)
+(note 270 269 271 56 [bb 56] NOTE_INSN_BASIC_BLOCK)
+(insn 271 270 272 56 (set (reg:SI 146 [ _60 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -40 [0xffffffffffffffd8])) [3 event.button.y+0 S4 A64])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":153 -1
+     (nil))
+(insn 272 271 273 56 (set (reg:SI 147 [ _61 ])
+        (mem/j/c:SI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -44 [0xffffffffffffffd4])) [3 event.button.x+0 S4 A32])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":153 -1
+     (nil))
+(insn 273 272 274 56 (set (reg:SI 1 dx)
+        (const_int 1 [0x1])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":153 -1
+     (nil))
+(insn 274 273 275 56 (set (reg:SI 4 si)
+        (reg:SI 146 [ _60 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":153 -1
+     (nil))
+(insn 275 274 276 56 (set (reg:SI 5 di)
+        (reg:SI 147 [ _61 ])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":153 -1
+     (nil))
+(call_insn 276 275 277 56 (call (mem:QI (symbol_ref:DI ("mouse_press") [flags 0x41]  <function_decl 0x7f2331b2fd00 mouse_press>) [0 mouse_press S1 A8])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":153 -1
+     (nil)
+    (expr_list:SI (use (reg:SI 5 di))
+        (expr_list:SI (use (reg:SI 4 si))
+            (expr_list:SI (use (reg:SI 1 dx))
+                (nil)))))
+(jump_insn 277 276 278 56 (set (pc)
+        (label_ref 288)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":154 -1
+     (nil)
+ -> 288)
+(barrier 278 277 279)
+(code_label 279 278 280 57 2 (nil) [4 uses])
+(note 280 279 281 57 [bb 57] NOTE_INSN_BASIC_BLOCK)
+(insn 281 280 282 57 (parallel [
+            (set (reg:DI 156)
+                (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":12 -1
+     (nil))
+(insn 282 281 283 57 (set (reg:DI 5 di)
+        (reg:DI 156)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":12 -1
+     (nil))
+(call_insn 283 282 284 57 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:DI ("SDL_PollEvent") [flags 0x41]  <function_decl 0x7f2330257b00 SDL_PollEvent>) [0 SDL_PollEvent S1 A8])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":12 -1
+     (nil)
+    (expr_list:DI (use (reg:DI 5 di))
+        (nil)))
+(insn 284 283 286 57 (set (reg:SI 148 [ _62 ])
+        (reg:SI 0 ax)) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":12 -1
+     (nil))
+(insn 286 284 287 57 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 148 [ _62 ])
+            (const_int 0 [0]))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":12 -1
+     (nil))
+(jump_insn 287 286 288 57 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 285)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":12 -1
+     (nil)
+ -> 285)
+(code_label 288 287 289 58 6 (nil) [11 uses])
+(note 289 288 290 58 [bb 58] NOTE_INSN_BASIC_BLOCK)
+(code_label 290 289 296 59 1 (nil) [2 uses])
+(note 296 290 291 59 [bb 59] NOTE_INSN_BASIC_BLOCK)
+(insn 291 296 292 59 (parallel [
+            (set (reg:CCZ 17 flags)
+                (unspec:CCZ [
+                        (mem/v/f/c:DI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                                (const_int -8 [0xfffffffffffffff8])) [2 D.26896+0 S8 A64])
+                        (const_int 40 [0x28])
+                    ] UNSPEC_SP_TLS_TEST))
+            (clobber (scratch:DI))
+        ]) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":159 -1
+     (nil))
+(jump_insn 292 291 297 59 (set (pc)
+        (if_then_else (eq (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 295)
+            (pc))) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":159 -1
+     (nil)
+ -> 295)
+(note 297 292 293 60 [bb 60] NOTE_INSN_BASIC_BLOCK)
+(call_insn 293 297 294 60 (call (mem:QI (symbol_ref:DI ("__stack_chk_fail") [flags 0x41]  <function_decl 0x7f2330319800 __stack_chk_fail>) [0 __stack_chk_fail S1 A8])
+        (const_int 0 [0])) "/media/harithalsafi/DATA/Education/University/University-Year-1/Programming-Project/comp1921/coursework_2/src/misc.c":159 -1
+     (expr_list:REG_ARGS_SIZE (const_int 0 [0])
+        (expr_list:REG_NORETURN (const_int 0 [0])
+            (expr_list:REG_EH_REGION (const_int 0 [0])
+                (nil))))
+    (nil))
+(barrier 294 293 295)
+(code_label 295 294 298 61 26 (nil) [1 uses])
+(note 298 295 0 61 [bb 61] NOTE_INSN_BASIC_BLOCK)
